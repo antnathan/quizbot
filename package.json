@@ -1,0 +1,14 @@
+{
+    "name": "quiz-telegram-bot",
+    "description": "Bot para receber as perguntas do quiz do LME",
+    "version": "0.0.1",
+    "author": "Nathan Souza",
+    "main": "quizbot.js",
+    "scripts": {
+        "start": "node quizbot.js"
+    },
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "node-telegram-bot-api": "^0.40.0"
+    }
+}
